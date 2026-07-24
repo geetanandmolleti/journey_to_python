@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priva Notes &trade; - Your Secure Digital Vault</title>
+    <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-brand">
+            <span class="nav-icon">&#128274;</span>
+            <span class="nav-logo"><b>Priva Notes</b></span>
+        </div>
+        <div class="nav-links">
+            <a href="#up" class="nav-item">About</a>
+            <a href="#section3" class="nav-item">Features</a>
+            <a href=".footer-container" class="nav-item">Contact Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="c1">
+            <h1 class="c1h1"> <img  id="img1" src="./assests/image.png" alt="">Your Notes</h1>
+            <h1 class="c1h1">Your Eyes Only</h1>
+            <p class="c1h12">
+                A privacy&dash;first note and file&dash;saving platform where encryption happens in your browser.
+                The server never sees your data&mdash;only encrypted gibberish.
+            </p>
+            <br><br><br>
+            <div class="contribution">
+                <a href="./cntribution.html">Click here for contribution</a>
+                <a href="./dbshow.html">Click here to view contributions</a>
+            </div>
+
+        </section>
+
+        <section class="c1" id="up">
+            <h2 class="c1h122"> <img src="./assests/image copy.png" alt="" id="img2">Built For Privacy</h2>
+            <p class="c1h12">
+                Take back control of your private data. Instead of uploading your notes and files to insecure
+                cloud databases where tech companies can read them, Priva Notes uses a Zero&dash;Knowledge Architecture.
+                When you write a note or upload a file, your browser encrypts it using a password known only to you
+                before it ever leaves your device.
+            </p>
+
+            <div class="div_container">
+                <div class="divblocks">
+                    <img src="./assests/image copy 2.png" alt="" id="img3">
+                    <h1>Client&dash;Side Encryption</h1>
+                    <p>Your notes are encrypted in the browser using Web Crypto API before they leave your device. Your
+                        password never touches the server.</p>
+                </div>
+
+                <div class="divblocks">
+                    <img id="img4" src="./assests/image copy 3.png" alt="">
+                    <h1>Zero&dash;Knowledge Storage</h1>
+                    <p>The Django backend sees only encrypted blobs. If the database is compromised, attackers get
+                        nothing but scrambled data.</p>
+                </div>
+
+                <div class="divblocks">
+                    <img src="./assests/image copy 4.png" alt="">
+                    <h1>Real&dash;Time Sync</h1>
+                    <p>WebSockets deliver instant updates across your devices. Open a note on your phone &rarr; see it
+                        live on your laptop.</p>
+                </div>
+            </div>
+        </section>
+    <section id="section3">
+        <img id="imgin3" src="./assests/image copy 5.png" alt="Priva Notes Local Security Concept Diagram">
+    
+        <div class="div3">
+            <h2>Why this project exists</h2>
+    
+            <p>
+                Most note-taking apps upload your private thoughts to a cloud database where the company—and anyone who
+                breaches
+                it—can read everything. That's fundamentally broken.
+            </p>
+    
+            <p>
+                <span class="highlight">PrivaDrop Notes</span> takes a different approach. Your data is encrypted locally
+                before it
+                ever leaves your browser. The server acts as a secure vault that can't see inside.
+            </p>
+    
+            <p>
+                This is a learning project built with <span class="tech-stack">Django</span>,
+                <span class="tech-stack">WebSockets</span>, and the <span class="tech-stack">Web Crypto API</span>.
+                It's open source because privacy tools should be transparent, auditable, and free for everyone.
+            </p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand-column">
+                <div class="footer-logo">
+                    <span>&#128274;</span> <strong>Priva Notes</strong>
+                </div>
+                <p class="footer-tagline">
+                    Zero-Knowledge local browser encryption. Keeping your private data out of the cloud.
+                </p>
+            </div>
+    
+            <div class="footer-links-grid">
+                <div class="footer-column">
+                    <h3>Product</h3>
+                    <a href="#up">About</a>
+                    <a href="#">Features</a>
+                    <a href="#">Security Sheet</a>
+                </div>
+    
+                <div class="footer-column">
+                    <h3>Developer</h3>
+                    <a href="#">GitHub Repo</a>
+                    <a href="#">Documentation</a>
+                    <a href="#">Bug Bounty</a>
+                </div>
+    
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2026 Priva Notes&trade;. Built with Django & Web Crypto API. Open Source under MIT License.</p>
+        </div>
+    </footer>
+    </main>
+
+</body>
+
+</html>
